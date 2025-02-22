@@ -34,6 +34,8 @@ It provides an intuitive graphical interface for:
 
 ![gui_1](https://github.com/user-attachments/assets/03ee31c6-1549-41af-a60f-bb129f62fbeb)
 
+![matplot_chart_1](https://github.com/user-attachments/assets/fbd67f75-2e95-46cc-86d5-687b5313cda2)
+
 
 ## Technical Details
 
