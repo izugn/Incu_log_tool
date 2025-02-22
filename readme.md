@@ -1,6 +1,6 @@
-# ESPPF Incubation Log Analyzer
+# Incubation Log Analyzer
 
-A Python-based desktop application for analyzing and visualizing sensor datalog of a specific incubator. This tool processes CSV log files to generate comprehensive statistics and interactive charts for initial root cause analysis, making it easier to catch deviations, sensor malfunctions and to monitor incubation parameters over time.
+A Python-based desktop application for analyzing and visualizing sensor datalog of a specific [incubator](https://www.vitrolife.com/products/time-lapse-systems/embryoscopeplus-time-lapse-system/). This tool processes CSV log files to generate comprehensive statistics and interactive charts for initial root cause analysis, making it easier to catch deviations, sensor malfunctions and to monitor incubation parameters over time.
 
 The main purpose of this software tool is to help helpdesk agents and service technicians daily work with troubleshooting the device in question.
 It provides an intuitive graphical interface for:
