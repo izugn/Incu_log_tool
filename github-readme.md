@@ -1,20 +1,18 @@
 # ESPPF Incubation Log Analyzer
 
-A Python-based desktop application for analyzing and visualizing incubation data from embryo incubators. This tool processes CSV log files to generate comprehensive statistics and interactive charts, making it easier to monitor and analyze incubation parameters over time.
+A Python-based desktop application for analyzing and visualizing sensor datalog of a specific incubator. This tool processes CSV log files to generate comprehensive statistics and interactive charts, making it easier to monitor and analyze incubation parameters over time.
 
-## Overview
-
-The ESPPF Incubation Log Analyzer is designed to help embryologists and laboratory staff monitor and analyze critical parameters from embryo incubation systems. It provides an intuitive graphical interface for:
+The main purpose of this software tool is to help Helpdesk agents and service technicians daily work with troubleshooting the device in question.
+It provides an intuitive graphical interface for:
 - Loading and processing incubation log files
 - Calculating statistical metrics over specified time periods
-- Generating detailed visualizations of key parameters
-- Monitoring system performance and environmental conditions
+- Generating detailed visualizations of key parameters (sensor readings, alarm state, incubator door openings)
 
 ## Key Features
 
 ### Data Analysis
 - Processes multiple CSV log files from incubation systems
-- Calculates comprehensive statistics including min, max, average, median, and standard deviation for:
+- Calculates statistics including min, max, average, median, and standard deviation for:
   - Temperature control
   - CO₂ concentration and flow
   - O₂ concentration
@@ -74,5 +72,4 @@ Current version: 1.2.1 (February 2025)
 
 ---
 
-*Note: This tool is designed for processing specific CSV log file formats from embryo incubation systems. Please ensure your input data matches the expected format.*
 
