@@ -32,6 +32,9 @@ It provides an intuitive graphical interface for:
 - Customizable date range selection for statistic generation
 - Export capabilities for further deviation report records.
 
+![gui_1](https://github.com/user-attachments/assets/03ee31c6-1549-41af-a60f-bb129f62fbeb)
+
+
 ## Technical Details
 
 - Built with Python 3.x
