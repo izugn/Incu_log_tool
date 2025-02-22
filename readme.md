@@ -1,12 +1,12 @@
 # ESPPF Incubation Log Analyzer
 
-A Python-based desktop application for analyzing and visualizing sensor datalog of a specific incubator. This tool processes CSV log files to generate comprehensive statistics and interactive charts, making it easier to monitor and analyze incubation parameters over time.
+A Python-based desktop application for analyzing and visualizing sensor datalog of a specific incubator. This tool processes CSV log files to generate comprehensive statistics and interactive charts for initial root cause analysis, making it easier to catch deviations, sensor malfunctions and to monitor incubation parameters over time.
 
-The main purpose of this software tool is to help Helpdesk agents and service technicians daily work with troubleshooting the device in question.
+The main purpose of this software tool is to help helpdesk agents and service technicians daily work with troubleshooting the device in question.
 It provides an intuitive graphical interface for:
-- Loading and processing incubation log files
-- Calculating statistical metrics over specified time periods
-- Generating detailed visualizations of key parameters (sensor readings, alarm state, incubator door openings)
+- Fast loading and processing big incubation log files (Sensor readings 1/min; Monthly log: 40K+ row CSV);
+- Calculating statistical metrics over specified time periods;
+- Generating detailed visualizations of key parameters (sensor readings, alarm state, incubator door openings).
 
 ## Key Features
 
@@ -20,21 +20,17 @@ It provides an intuitive graphical interface for:
   - System parameters (UV light, chamber temperatures, etc.)
 
 ### Visualization
-- Interactive multi-panel charts showing:
+- Interactive (matplotlib) multi-panel charts showing:
   - Temperature trends with setpoints
   - CO₂ concentration, pressure, and flow rates
   - O₂ levels and N₂ system parameters
-- Real-time visualization of:
-  - Door opening events
-  - System alarms
-  - Parameter deviations
+- Visualization of events like 'door opening' and sensor alarms gives further hint to quickly catch the root cause.
 
 ### User Interface
 - Clean, intuitive Qt-based interface
-- Easy file selection and data import
-- Customizable date range selection
-- Real-time statistical calculations
-- Export capabilities for further analysis
+- Data Source folder selection and data import
+- Customizable date range selection for statistic generation
+- Export capabilities for further deviation report records.
 
 ## Technical Details
 
@@ -53,22 +49,13 @@ The application requires Python 3.x and several dependencies:
 - numpy
 - tabulate
 
-A complete list of dependencies is available in the requirements.txt file.
-
 ## Usage
 
 1. Launch the application
 2. Browse and select a folder containing incubation log CSV files
 3. Enter the instrument number for identification
-4. Specify the time range for analysis
-5. Generate statistics and visualizations with a single click
-
-## Version
-
-Current version: 1.2.1 (February 2025)
-- Enhanced memory management
-- Improved visualization features
-- Added comprehensive system parameter monitoring
+4. Specify the time range for statistics
+5. Generate statistics and visualizations with a single click.
 
 ---
 
