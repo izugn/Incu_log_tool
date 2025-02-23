@@ -8,7 +8,7 @@ It provides an intuitive graphical interface for:
 - Calculating statistical metrics over specified time periods;
 - Generating detailed visualizations of key parameters (sensor readings, alarm state, incubator door openings).
 
-*incubator with crucial features: maintaining gas (oxygen, carbon-dioxide) concentration and temperature on the given levels. 
+*incubator with crucial features: maintaining gas (O2, CO2) concentration and temperature on the given levels. 
 
 ## Key Features
 
