@@ -1,12 +1,14 @@
 # Incubation Log Analyzer
 
-A Python-based desktop application for analyzing and visualizing sensor datalog of a specific incubator. This tool processes CSV log files to generate comprehensive statistics and interactive charts for initial root cause analysis, making it easier to catch deviations, sensor malfunctions and to monitor incubation parameters over time.
+A Python-based desktop application for analyzing and visualizing sensor datalog of a specific medical device*. This tool processes CSV log files to generate comprehensive statistics and interactive charts for initial root cause analysis, making it easier to catch deviations, sensor malfunctions and to monitor incubation parameters over time.
 
-The main purpose of this software tool is to help helpdesk agents and service technicians daily work with troubleshooting the device in question.
+The main purpose of this software tool is to help helpdesk agents and service technicians daily work with troubleshooting the device in question*.
 It provides an intuitive graphical interface for:
 - Fast loading and processing big incubation log files (Sensor readings 1/min; Monthly log: 40K+ row CSV);
 - Calculating statistical metrics over specified time periods;
 - Generating detailed visualizations of key parameters (sensor readings, alarm state, incubator door openings).
+
+*incubator with crucial features: maintaining gas (oxygen, carbon-dioxide) concentration and temperature on the given levels. 
 
 ## Key Features
 
